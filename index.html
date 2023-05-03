@@ -12,19 +12,20 @@
 
 </head>
 <body>
-  <div class="container">
+  <main class="container">
     <form  action="#" class="form">
       <label class="dayLabel label" for="day">Day:</label>
       <input type="number" id="day" name="day" min="1" max="31" required placeholder="DD">
-      <label class="dayLabelError error" for="day"></label>
+      <span class="dayLabelError error" for="day"></span>
 
       <label class="monthLabel label" for="month">Month:</label>
       <input type="number" id="month" name="month" min="1" max="12" required placeholder="MM">
-      <label class="monthLabelError error" for="month"></label>
+      <span class="monthLabelError error" for="month"></span>
 
       <label class="yearLabel label" for="year">Year:</label>
       <input type="number" id="year" name="year" min="1900" max="9999" required placeholder="YYYY">
-      <label class="yearLabelError error" for="year"></label>
+      <span class="yearLabelError error" for="year"></span>
+
       <button type="submit" class="btn">
         <img src="/assets/images/icon-arrow.svg" alt="arrow" class="arrow">
       </button>
@@ -33,26 +34,26 @@
 
     </form>
 
-    <div class="yearsInput ageinput">
-      - -
-    </div>
-    <div class="monthsInput ageinput">
-      - -
-    </div>
-    <div class="daysInput ageinput">
-      - -
-    </div>
+   
+
+    <div class="yearsInput ageinput" aria-live="polite" aria-atomic="true">- -</div>
+    <div class="monthsInput ageinput" aria-live="polite" aria-atomic="true">- -</div>
+    <div class="daysInput ageinput" aria-live="polite" aria-atomic="true">- -</div>
 
     <div class="years age">years</div>
     <div class="months age">months</div>
     <div class="days age">days</div>
+
+    
   
-  </div>
+  </main>
   
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
+
+    <footer class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="https://irvine-sunday-portfolio.vercel.app/" target="_blank">Irvine Sunday</a>.
+    </footer>
+ 
   <script src="/static/index.js"></script>
 </body>
 </html>
