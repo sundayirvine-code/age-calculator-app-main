@@ -242,6 +242,14 @@ function isValidDate(day, month, year) {
       ageMonths--;
       ageDays += daysInLastMonth;
     }
+
+    const age = document.querySelector('.years');
+    if (ageYears == 1) {
+      age.innerHTML = 'year';
+    }
+    else{
+      age.innerHTML = 'years';
+    }
   
     yearsOutput.innerHTML = ageYears;
     monthsOutput.innerHTML = ageMonths;
