@@ -40,8 +40,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Solution URL here](https://www.frontendmentor.io/solutions/html-css-js-KRnsLlYTAm)
+- Live Site URL: [Live site URL](https://age-calculator-app-main-eta.vercel.app/)
 
 ## My process
 - I started by brainstorming the basic functionality I wanted the app to have - calculating a person's age based on their birthdate. I then wrote out a plan for how I would go about implementing this functionality.  
@@ -67,5 +67,5 @@ Users should be able to:
 
 ## Author
 
-- Website - [Irvine Sunday Portfolio](https://www.your-site.com)
+- Website - [Irvine Sunday Portfolio](https://irvine-sunday-portfolio.vercel.app/)
 - Frontend Mentor - [sundayirvine-code](https://www.frontendmentor.io/profile/sundayirvine-code)
