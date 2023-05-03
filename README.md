@@ -12,9 +12,6 @@ This is a solution to the [Age calculator app challenge on Frontend Mentor](http
   - [Built with](#built-with)
 - [Author](#author)
 
-
-**Note: Delete this note and update the table of contents based on what sections you keep.**
-
 ## Overview
 The age calculator app is a web application that allows users to calculate their age based on the date entered. The app accepts input for the day, month, and year of birth and then calculates the user's age in years, months, and days. The app provides instant feedback on whether the entered date is valid or not, and it also uses a responsive design to provide optimal user experience across different screen sizes.  
 The app also uses CSS to provide a visually pleasing and user-friendly interface. The input fields have been styled to provide instant feedback on the validity of the entered data, and the font size and layout have been optimized for different screen sizes.  
@@ -37,13 +34,14 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![agecalc](https://user-images.githubusercontent.com/86722164/235959656-5378f510-8dff-4c54-a1d1-e93571d3fb47.PNG)
+
 
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Solution URL here](https://www.frontendmentor.io/solutions/html-css-js-KRnsLlYTAm)
+- Live Site URL: [Live site URL](https://age-calculator-app-main-eta.vercel.app/)
 
 ## My process
 - I started by brainstorming the basic functionality I wanted the app to have - calculating a person's age based on their birthdate. I then wrote out a plan for how I would go about implementing this functionality.  
@@ -69,5 +67,5 @@ Users should be able to:
 
 ## Author
 
-- Website - [Irvine Sunday Portfolio](https://www.your-site.com)
+- Website - [Irvine Sunday Portfolio](https://irvine-sunday-portfolio.vercel.app/)
 - Frontend Mentor - [sundayirvine-code](https://www.frontendmentor.io/profile/sundayirvine-code)
